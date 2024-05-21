@@ -1,0 +1,36 @@
+
+.header {
+    height: 80vh;
+    
+    background-image: linear-gradient(to right bottom,
+    rgba($color-primary-light, .8), 
+    rgba($color-primary-dark, .9)),
+    url(../assets/header-img.jpg);
+
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 65vh, 50% 100%, 0 65vh);
+    position: relative;
+
+    @include respond(phone) {
+        clip-path: polygon(0 0, 100% 0, 100% 70vh, 50% 100%, 0 70vh);
+    }
+
+    &__logo-box {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+
+    &__logo {
+        width: 8rem;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);  
+        text-align: center;
+    }
+}
