@@ -48,7 +48,7 @@ const Stories = () => {
                             </h3>
                             <p className="paragraph">
                                 After so many interior decoration contractors have messed up my workspace. From poor partitions to low quality window blinds and fading flower petals. I started looking for another office space but meeting Gbemisola Alli, the woman behind Misols, the architectural problem of my office space was solved starting with a sheet and right now has been perfectly executed. My office now is a place of bliss.
-                            </p
+                            </p>
                         </div>
                     </div>
                 </div>
