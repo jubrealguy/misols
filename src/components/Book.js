@@ -4,7 +4,7 @@ const Book = () => {
             <div className="row">
                 <div className="book">
                     <div className="book__form">
-                        <form action="#" className="form">
+                        <form action="https://formspree.io/f/xvoejdoo" method="POST">
                             <div className="u-margin-big">
                                 <h2 className="heading__secondary u-margin-bottom-medium">
                                     book us now
